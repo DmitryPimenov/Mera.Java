@@ -1,12 +1,14 @@
 package dmitrypimenov;
 
 public class Automobile {
-    protected int maxSpeed;
-    protected String name;
-    protected String color;
-    protected double fuelVolume;
 
-    public Automobile(int maxSpeed, String name, String color, double fuelVolume) {
+    public int maxSpeed;
+    public String name;
+    public String color;
+    public double fuelVolume;
+
+    public void AverageSpeed(int value){
+        maxSpeed += value;
     }
 
     public Automobile() {

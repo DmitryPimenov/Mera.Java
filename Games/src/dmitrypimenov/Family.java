@@ -25,6 +25,6 @@ public class Family {
         this.amount = a;
     }
     void members(){
-            System.out.print(name + " family from a " + city + " of " + amount + " family members ");
+            System.out.print(name + " family from " + city + " of " + amount + " family members ");
     }
 }
