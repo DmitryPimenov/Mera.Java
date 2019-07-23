@@ -1,3 +1,3 @@
 # Mera.Java
-# Games
-# In this game, you can travel and find out how much fuel and time is needed for any distance.
+# Project
+# With this project, you can find out how much money you need for fuel, what is your average speed and how many liters is required for any distance.
