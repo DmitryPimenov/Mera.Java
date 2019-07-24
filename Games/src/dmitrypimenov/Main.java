@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
-        public static void main(String[] args) throws Exception{
-                try {
+        public static void main(String[] args) {
                         class Family {
                                 public String name;
                                 public String city;
@@ -359,12 +358,10 @@ public class Main {
                                 writer.write("Сумма денег необходимая на бензин - A95: " + String.valueOf(alist) + " рублей\n");
                                 writer.write("Потраченное время - " + String.valueOf(blist) + " часов\n");
                                 writer.write("Средняя скорость - " + String.valueOf(clist) + " км/час");
+                                writer.close();
                                 System.out.println("Данные сохранены");
                         }catch (IOException e){
                                 e.printStackTrace();
                         }
-                } catch (Exception ex) {
-                        System.err.println(ex);
-                }
         }
 }
